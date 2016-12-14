@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+
+    <EditText
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/b"
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/img"
+        android:layout_margin="10dp"
+        android:digits="@string/number_abc"
+        android:hint="请输入账号"
+        android:textSize="16dp" />
+
+    <EditText
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/umeng_socialize_title_right_bt_normal"
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/name"
+        android:layout_margin="10dp"
+        android:digits="@string/number_abc"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_margin="10dp"
+        android:text="登录"
+        android:background="#55000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/no_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt"
+        android:layout_marginLeft="260dp"
+        android:text="跳过登录"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp" />
+</RelativeLayout>

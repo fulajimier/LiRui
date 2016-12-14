@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.lirui.as.util.CircularImage
+        android:id="@+id/cover_user_photo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/a" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cover_user_photo"
+        android:layout_marginTop="20dp"></ListView>
+    <!--<LinearLayout-->
+    <!--android:id="@+id/mymsg"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_below="@id/cover_user_photo"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:src="@drawable/c" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:textSize="16dp"-->
+    <!--android:text="我的消息" />-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:layout_below="@id/mymsg"-->
+    <!--android:layout_marginLeft="50dp"-->
+    <!--android:background="@color/colorPrimaryDark" />-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/myleson"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_below="@id/mymsg"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:src="@drawable/b" />-->
+
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:textSize="16dp"-->
+    <!--android:text="我的反馈" />-->
+    <!--</LinearLayout>-->
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:layout_below="@id/myleson"-->
+    <!--android:layout_marginLeft="50dp"-->
+    <!--android:background="@color/colorPrimaryDark" />-->
+</RelativeLayout>
